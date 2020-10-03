@@ -1,0 +1,23 @@
+.message-list {
+  max-width: 500px;
+  width: 100%;
+}
+.message-list .message-list--message-container {
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+.message-list .message-list--message-container .message-list--user {
+  font-size: 1.1em;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+.message-list .message-list--message-container .message-list--message {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=/client.f69400ca.css.map */
